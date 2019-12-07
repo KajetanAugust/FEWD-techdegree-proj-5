@@ -1,0 +1,16 @@
+*   {
+    font-family: $main-font;
+    box-sizing: border-box;
+}
+
+h1  {
+  font:4em bold;
+  color:$base-color;
+  max-width: 90%; 
+  margin: 50px 5% 100px 5%;
+}
+
+a, p  {
+    color:$base-color; 
+}
+

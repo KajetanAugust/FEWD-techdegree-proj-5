@@ -1,16 +1,25 @@
 *   {
-    font-family: $main-font;
+  font-family: $main-font;
     box-sizing: border-box;
 }
 
 h1  {
-  font:4em bold;
+  font-size:1.5em;
+  
+  font-family: $main-font;
   color:$base-color;
   max-width: 90%; 
-  margin: 50px 5% 100px 5%;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  @media(min-width:768px) {
+    font-size:2em;
+    
+  }
 }
 
 a, p  {
     color:$base-color; 
+    align-self: center;
 }
 

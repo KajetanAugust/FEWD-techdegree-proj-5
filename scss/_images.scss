@@ -1,3 +1,9 @@
 img {
-    width:80%;
+    width:250px;
+    border: 10px white solid;
+    justify-self: center;
+    align-self: center;
+    @media(min-width:768px) {
+        border:15px white solid;
+    }
 }

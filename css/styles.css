@@ -463,22 +463,6 @@ a, p {
       align-self: center;
 }
 
-img {
-  width: 250px;
-  border: 10px white solid;
-  -ms-grid-column-align: center;
-      justify-self: center;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
-@media (min-width: 768px) {
-  img {
-    border: 15px white solid;
-  }
-}
-
 .gallery-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -546,6 +530,22 @@ img {
   border-radius: 5px;
   height: 30px;
   width: 48%;
+}
+
+img {
+  width: 250px;
+  border: 10px white solid;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+@media (min-width: 768px) {
+  img {
+    border: 15px white solid;
+  }
 }
 
 body.compensate-for-scrollbar {

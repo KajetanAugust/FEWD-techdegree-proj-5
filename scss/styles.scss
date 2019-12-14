@@ -1,9 +1,4 @@
-@import 'normalize',
-        'mixins',
-        'variables',
-        'base', 
-        'typography', 
-        'images',
-        'layout',
-        'jquery.fancybox.scss';
+@import 'utilities/index-utilities',
+        'base/index-base',
+        'components/index-components';
         

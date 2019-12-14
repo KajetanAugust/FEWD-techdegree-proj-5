@@ -5,11 +5,12 @@
 
 h1  {
   font-size:1.5em;
-  
+  align-self: center;
+  justify-self: center;
   font-family: $main-font;
   color:$base-color;
   max-width: 90%; 
-  @include centering;
+  
   align-self: center;
   @media(min-width:768px) {
     font-size:2em;

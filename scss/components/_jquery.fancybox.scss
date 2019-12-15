@@ -52,20 +52,20 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-bg {
-    background: rgb(30, 30, 30);
+    background: rgb(0, 0, 0);
     opacity: 0;
     transition-duration: inherit;
     transition-property: opacity;
     transition-timing-function: cubic-bezier(.47, 0, .74, .71);
-    @media(min-width:768px){
-        background: rgb(109, 109, 109);
-        opacity: .5;
-    }
 }
 
 .fancybox-is-open .fancybox-bg {
-    opacity: .9;
+    opacity: 1;
     transition-timing-function: cubic-bezier(.22, .61, .36, 1);
+    @media(min-width:768px)  {
+        opacity: 1;
+        background: rgb(34, 43, 45);
+      }
 }
 
 .fancybox-infobar,

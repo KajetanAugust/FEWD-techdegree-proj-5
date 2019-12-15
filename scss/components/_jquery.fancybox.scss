@@ -57,6 +57,9 @@ body.compensate-for-scrollbar {
     transition-duration: inherit;
     transition-property: opacity;
     transition-timing-function: cubic-bezier(.47, 0, .74, .71);
+    @media(min-width:768px){
+        
+    }
 }
 
 .fancybox-is-open .fancybox-bg {

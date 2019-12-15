@@ -1,3 +1,4 @@
+// LAYOUT
 
 .gallery-wrap   {
     display: flex;
@@ -32,7 +33,7 @@
     display: flex;
     justify-content: center;
     margin:10px auto 25px auto;
-   
+
     @media(min-width:820px) {
         display:none;
     }

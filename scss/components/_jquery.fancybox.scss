@@ -58,7 +58,8 @@ body.compensate-for-scrollbar {
     transition-property: opacity;
     transition-timing-function: cubic-bezier(.47, 0, .74, .71);
     @media(min-width:768px){
-        
+        background: rgb(109, 109, 109);
+        opacity: .5;
     }
 }
 

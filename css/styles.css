@@ -887,8 +887,7 @@ body.compensate-for-scrollbar {
   -webkit-box-shadow: none;
           box-shadow: none;
   cursor: pointer;
-  display: inline-block;
-  height: 44px;
+  height: 100px;
   margin: 0;
   padding: 10px;
   position: relative;
@@ -896,7 +895,16 @@ body.compensate-for-scrollbar {
   transition: color .2s;
   vertical-align: top;
   visibility: inherit;
-  width: 44px;
+  width: 100px;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .fancybox-button {
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+  }
 }
 
 .fancybox-button,
@@ -1016,6 +1024,7 @@ body.compensate-for-scrollbar {
   position: absolute;
   top: calc(50% - 50px);
   width: 70px;
+  display: inline-block;
 }
 
 .fancybox-navigation .fancybox-button div {

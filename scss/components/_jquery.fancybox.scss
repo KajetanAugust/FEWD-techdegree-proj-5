@@ -318,15 +318,20 @@ body.compensate-for-scrollbar {
     border-radius: 0;
     box-shadow: none;
     cursor: pointer;
-    display: inline-block;
-    height: 44px;
+    height: 100px;
     margin: 0;
     padding: 10px;
     position: relative;
     transition: color .2s;
     vertical-align: top;
     visibility: inherit;
-    width: 44px;
+    width: 100px;
+    display:none;
+    @media(min-width:768px) {
+        width: 44px;
+        height: 44px;
+        display: inline-block;
+    }
 }
 
 .fancybox-button,
@@ -365,6 +370,7 @@ body.compensate-for-scrollbar {
     overflow: visible;
     position: relative;
     width: 100%;
+    
 }
 
 .fancybox-button svg path {
@@ -444,6 +450,7 @@ body.compensate-for-scrollbar {
     position: absolute;
     top: calc(50% - 50px);
     width: 70px;
+    display: inline-block;
 }
 
 .fancybox-navigation .fancybox-button div {

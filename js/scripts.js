@@ -14,7 +14,7 @@ $('.search-bar').on('keyup',function() {
         if($attrDataCaption.includes($searchVal)){
             $(this).show();
         }else {
-            $(this).hide()
+            $(this).hide();
         }
     });
 });

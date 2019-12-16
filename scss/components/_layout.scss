@@ -35,31 +35,11 @@
         border: 1px $detail-color solid;
         border-radius: 5px;
         height: 30px;
-        width:47%;
+        width:44%;
+        min-width: 232px;
         @media(min-width:768px) {
             width: 300px;
         }
     }
 
 }
-
-
-// .mobile-search{
-    
-//     display: flex;
-//     justify-content: center;
-//     margin:10px auto 25px auto;
-
-//     @media(min-width:820px) {
-//         display:none;
-//     }
-//     input{
-//         justify-self: center;
-//         text-align: center;
-//         width: 300px;
-//         border: 1px $detail-color solid;
-//         border-radius: 5px;
-//         height: 30px;
-//         width: 48%;
-//     }
-// }

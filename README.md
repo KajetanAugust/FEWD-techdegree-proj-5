@@ -1,4 +1,4 @@
-This is my submission for Unit 3 project. It's a gallery page. It includes jQuery plugin for the lightbox (from fancybox http://fancyapps.com/fancybox/) and the original jquery code for search function with keyup event listener.
+This is my submission for Unit 5 project. It's a gallery page. It includes jQuery plugin for the lightbox (from fancybox http://fancyapps.com/fancybox/) and the original jquery code for search function with keyup event listener.
 
 jQuery search 
 1. When key is pressed inside the input
